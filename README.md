@@ -16,22 +16,9 @@ It recommends movies similar to a given movie based on their plot descriptions.
 - TF-IDF
 - Cosine Similarity
 
-## 📂 Project Structure
-movie-recommendation-system
-│
-├── data
-│ └── movies.csv
-│
-├── src
-│ └── movie_recommender.py
-│
-├── README.md
-└── requirements.txt
-
-
 ---
 
-## ⚙️ How It Works
+## How It Works
 1. Loads movie data from a CSV file
 2. Cleans and preprocesses text data
 3. Converts text into TF-IDF vectors
@@ -41,9 +28,7 @@ movie-recommendation-system
 ##  How to Run the Project
 
 1. Install dependencies:
-```bash
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
-2. Run the program:
-```bash 
-python src/movie_recommender.py
+2. Run the program: 
+`python src/movie_recommender.py`
